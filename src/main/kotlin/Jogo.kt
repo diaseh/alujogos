@@ -1,8 +1,6 @@
 package org.example
 
-class Jogo {
-    var titulo = ""
-    var capa = ""
+class Jogo (var titulo:String,  var capa: String ) {
     val descricao = ""
 
 
