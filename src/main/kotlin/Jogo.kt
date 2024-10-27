@@ -1,6 +1,8 @@
 package org.example
 
-class Jogo (var titulo:String,  var capa: String ) {
+import com.google.gson.annotations.SerializedName
+
+class Jogo (@SerializedName("title") var titulo:String, @SerializedName("thumb") var capa: String ) {
     val descricao = ""
 
 
