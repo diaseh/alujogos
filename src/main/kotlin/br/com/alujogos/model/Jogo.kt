@@ -1,8 +1,8 @@
-package org.example
+package org.example.br.com.alujogos.model
 
 class Jogo (var titulo:String,
             var capa: String ) {
-    val descricao = ""
+    var descricao : String? = null
 
 
     override fun toString(): String {
