@@ -1,3 +1,5 @@
+package br.com.alujogos.principal
+
 import br.com.alujogos.service.Consomer
 import org.example.br.com.alujogos.model.Jogo
 import java.util.*
